@@ -1,0 +1,3 @@
+target 'Onban' do
+  use_frameworks!
+end
