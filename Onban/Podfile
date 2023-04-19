@@ -1,3 +1,5 @@
+platform :ios, '16.2'
+
 target 'Onban' do
   use_frameworks!
   pod 'SwiftLint'
