@@ -14,4 +14,14 @@ final class ProductCardCell: UICollectionViewCell {
     @IBOutlet private weak var priceLabel: UILabel!
     @IBOutlet private weak var salePriceLabel: UILabel!
     @IBOutlet private weak var eventBadgeStackView: UIStackView!
+    
+    func setupSalePriceLabelStrikeThroughStyle() {
+        guard let text = self.salePriceLabel.text else { return }
+        let attributedString = NSMutableAttributedString(string: text)
+        attributedString.addAttribute(
+            .strikethroughStyle,
+            value: NSUnderlineStyle.single.rawValue,
+            range: NSRange(location: 0, length: attributedString.length))
+        self.salePriceLabel.attributedText = attributedString
+    }
 }
