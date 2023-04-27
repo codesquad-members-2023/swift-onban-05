@@ -123,6 +123,13 @@
                 <constraint firstAttribute="bottom" secondItem="9ER-AL-svB" secondAttribute="bottom" id="fSF-dK-HDa"/>
                 <constraint firstAttribute="trailing" secondItem="9ER-AL-svB" secondAttribute="trailing" id="j88-kv-ax0"/>
             </constraints>
+            <connections>
+                <outlet property="priceLabel" destination="BOc-TB-5pG" id="LcW-wW-SN7"/>
+                <outlet property="productDescriptionLabel" destination="FeU-yC-WRW" id="hKt-aN-IGe"/>
+                <outlet property="productImageView" destination="NxV-a4-jeR" id="EHp-Dq-qD9"/>
+                <outlet property="productTitleLabel" destination="QVT-4A-LsX" id="Lok-In-8BO"/>
+                <outlet property="salePriceLabel" destination="fDp-aC-DpS" id="zet-Iz-Re6"/>
+            </connections>
             <point key="canvasLocation" x="-392.36641221374043" y="-14.084507042253522"/>
         </collectionViewCell>
     </objects>

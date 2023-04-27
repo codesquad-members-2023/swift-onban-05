@@ -7,11 +7,10 @@
 
 import UIKit
 
-class ProductCardCell: UICollectionViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
+final class ProductCardCell: UICollectionViewCell {
+    @IBOutlet private weak var productImageView: UIImageView!
+    @IBOutlet private weak var productTitleLabel: UILabel!
+    @IBOutlet private weak var productDescriptionLabel: UILabel!
+    @IBOutlet private weak var priceLabel: UILabel!
+    @IBOutlet private weak var salePriceLabel: UILabel!
 }
