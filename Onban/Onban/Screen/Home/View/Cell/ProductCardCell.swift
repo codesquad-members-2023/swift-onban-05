@@ -24,4 +24,13 @@ final class ProductCardCell: UICollectionViewCell {
             range: NSRange(location: 0, length: attributedString.length))
         self.salePriceLabel.attributedText = attributedString
     }
+    
+    func setupCornerRadius(for badge: UILabel) {
+        guard let width = badge.text?.size(withAttributes: nil).width,
+              let height = badge.text?.size(withAttributes: nil).height
+        else { return }
+        
+        badge.layer.masksToBounds = true
+        badge.layer.cornerRadius = ((width) * ((height) / (width))) / 2
+    }
 }
