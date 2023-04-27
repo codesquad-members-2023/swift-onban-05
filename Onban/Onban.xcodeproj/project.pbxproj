@@ -14,6 +14,8 @@
 		4FC9BB1E29EF84B300B6DE3B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9BB1C29EF84B300B6DE3B /* Home.storyboard */; };
 		4FC9BB2029EF84B600B6DE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9BB1F29EF84B600B6DE3B /* Assets.xcassets */; };
 		4FC9BB2329EF84B600B6DE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9BB2129EF84B600B6DE3B /* LaunchScreen.storyboard */; };
+		CC00F95E29FA3EA00069AF0C /* ProductCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC00F95C29FA3EA00069AF0C /* ProductCardCell.swift */; };
+		CC00F95F29FA3EA00069AF0C /* ProductCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC00F95D29FA3EA00069AF0C /* ProductCardCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		4FC9BB2429EF84B600B6DE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702189BE464C8F67E0AA4A88 /* Pods_Onban.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Onban.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AAC15CDFF0A6608AC126A6 /* Pods-Onban.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onban.debug.xcconfig"; path = "Target Support Files/Pods-Onban/Pods-Onban.debug.xcconfig"; sourceTree = "<group>"; };
+		CC00F95C29FA3EA00069AF0C /* ProductCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardCell.swift; sourceTree = "<group>"; };
+		CC00F95D29FA3EA00069AF0C /* ProductCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCardCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 		4FC9BB3129EF8BB800B6DE3B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC00F95B29FA3E3D0069AF0C /* Cell */,
 				4FC9BB1C29EF84B300B6DE3B /* Home.storyboard */,
 			);
 			path = View;
@@ -153,6 +158,15 @@
 				702189BE464C8F67E0AA4A88 /* Pods_Onban.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC00F95B29FA3E3D0069AF0C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC00F95C29FA3EA00069AF0C /* ProductCardCell.swift */,
+				CC00F95D29FA3EA00069AF0C /* ProductCardCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +233,7 @@
 				4FC9BB2329EF84B600B6DE3B /* LaunchScreen.storyboard in Resources */,
 				4FC9BB2029EF84B600B6DE3B /* Assets.xcassets in Resources */,
 				4FC9BB1E29EF84B300B6DE3B /* Home.storyboard in Resources */,
+				CC00F95F29FA3EA00069AF0C /* ProductCardCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +308,7 @@
 				4FC9BB1B29EF84B300B6DE3B /* ViewController.swift in Sources */,
 				4FC9BB1729EF84B300B6DE3B /* AppDelegate.swift in Sources */,
 				4FC9BB1929EF84B300B6DE3B /* SceneDelegate.swift in Sources */,
+				CC00F95E29FA3EA00069AF0C /* ProductCardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
