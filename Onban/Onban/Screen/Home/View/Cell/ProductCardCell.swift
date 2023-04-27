@@ -13,4 +13,5 @@ final class ProductCardCell: UICollectionViewCell {
     @IBOutlet private weak var productDescriptionLabel: UILabel!
     @IBOutlet private weak var priceLabel: UILabel!
     @IBOutlet private weak var salePriceLabel: UILabel!
+    @IBOutlet private weak var eventBadgeStackView: UIStackView!
 }
