@@ -18,6 +18,7 @@
 		CC00F95F29FA3EA00069AF0C /* ProductCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC00F95D29FA3EA00069AF0C /* ProductCardCell.xib */; };
 		CC00F96229FA70650069AF0C /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC00F96129FA70650069AF0C /* SF-Pro-Display-Regular.otf */; };
 		CC00F96429FA70770069AF0C /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC00F96329FA70770069AF0C /* SF-Pro-Display-Bold.otf */; };
+		CC00F96829FA78750069AF0C /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC00F96729FA78750069AF0C /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CC00F95D29FA3EA00069AF0C /* ProductCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCardCell.xib; sourceTree = "<group>"; };
 		CC00F96129FA70650069AF0C /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		CC00F96329FA70770069AF0C /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		CC00F96729FA78750069AF0C /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		4FC9BB2D29EF8A9200B6DE3B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CC00F96029FA6EEB0069AF0C /* Font */,
 				4FC9BB2429EF84B600B6DE3B /* Info.plist */,
 				4FC9BB1F29EF84B600B6DE3B /* Assets.xcassets */,
 			);
@@ -176,10 +179,19 @@
 		CC00F96029FA6EEB0069AF0C /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				CC00F96629FA78210069AF0C /* Extenstion */,
 				CC00F96329FA70770069AF0C /* SF-Pro-Display-Bold.otf */,
 				CC00F96129FA70650069AF0C /* SF-Pro-Display-Regular.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		CC00F96629FA78210069AF0C /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				CC00F96729FA78750069AF0C /* UIFont+Extension.swift */,
+			);
+			path = Extenstion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +335,7 @@
 				4FC9BB1B29EF84B300B6DE3B /* ViewController.swift in Sources */,
 				4FC9BB1729EF84B300B6DE3B /* AppDelegate.swift in Sources */,
 				4FC9BB1929EF84B300B6DE3B /* SceneDelegate.swift in Sources */,
+				CC00F96829FA78750069AF0C /* UIFont+Extension.swift in Sources */,
 				CC00F95E29FA3EA00069AF0C /* ProductCardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
